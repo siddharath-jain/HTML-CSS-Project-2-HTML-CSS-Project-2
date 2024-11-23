@@ -1,0 +1,87 @@
+/* universal code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 1rem 1rem;
+  width: 100%;
+  height: 100vh;
+}
+button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+/* end universal code */
+
+/* start header-nav section */
+header {
+  width: 100%;
+  height: 10vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  width: 50%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+/* end header-nav section */
+
+/* start section main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+main .left-side--content {
+}
+h1 {
+  text-transform: capitalize;
+}
+p {
+  font-size: 1rem;
+  margin: 1.2rem 0 2.4rem 0;
+}
+span {
+  color: blueviolet;
+}
+main .right-side--content {
+  width: 40%;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+main button {
+  padding: 1.2rem 2.4rem;
+}
+/* end section main */
